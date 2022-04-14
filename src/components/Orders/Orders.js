@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useCart from '../../hooks/useCart';
@@ -31,7 +32,7 @@ const Orders = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}>
-                        <button onClick={()=>navigate('/inventory')}>Proceed Checkout </button>
+                        <button onClick={()=>navigate('/shipment')}>Proceed Checkout </button>
                 </Cart>
             </div>
         </div>
